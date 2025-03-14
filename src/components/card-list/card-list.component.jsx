@@ -5,7 +5,7 @@ const CardList = ({ monsters }) =>  (
 
             <div className="card-list">
                 {monsters.map((monster) => {
-                    const {name, email , id} = monster;
+                    const {id} = monster;
                     return(
                     <Card key={id} monster={monster}/>
                     )
